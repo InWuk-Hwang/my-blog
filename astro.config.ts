@@ -30,7 +30,7 @@ export default defineConfig({
   ],
   i18n: {
     locales: ["en"],
-    defaultLocale: "en",
+    defaultLocale: ["en", "en-US"],
     routing: {
       prefixDefaultLocale: false,
     },
