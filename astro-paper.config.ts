@@ -8,7 +8,7 @@ export default defineAstroPaperConfig({
     author: "InWuk Hwang",
     profile: "https://thepastpatch.com",
     ogImage: "default-og.jpg",
-    lang: "en",
+    lang: "en-US",
     timezone: "America/New_York",
     dir: "ltr",
   },
