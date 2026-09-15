@@ -2,11 +2,11 @@ import { defineAstroPaperConfig } from "./src/types/config";
 
 export default defineAstroPaperConfig({
   site: {
-    url: "https://thepastpath.com/",
+    url: "https://thepastpatch.com/",
     title: "The Past Patch",
     description: "Curious about history's weirdest moments? The Past Patch brings bizarre true events back to life through original 2D illustrations and storytelling.",
     author: "InWuk Hwang",
-    profile: "https://thepastpath.com",
+    profile: "https://thepastpatch.com",
     ogImage: "default-og.jpg",
     lang: "en-US",
     timezone: "America/New_York",
@@ -23,8 +23,9 @@ export default defineAstroPaperConfig({
     showArchives: true,
     showBackButton: true,
     editPost: {
-      enabled: true,
-      url: "https://github.com/satnaing/astro-paper/edit/main/",
+      editPost: {
+        enabled: false, // satnaing 원본 레포 링크가 노출되지 않도록 초기에는 false 권장
+        url: "https://github.com/InWuk-Hwang/my-blog/edit/main/",
     },
     search: "pagefind",
   },
