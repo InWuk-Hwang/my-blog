@@ -8,7 +8,7 @@ export default defineAstroPaperConfig({
     author: "InWuk Hwang",
     profile: "https://thepastpatch.com",
     ogImage: "default-og.jpg",
-    lang: "en",
+    lang: "en-US",
     timezone: "America/New_York",
     dir: "ltr",
   },
@@ -23,9 +23,8 @@ export default defineAstroPaperConfig({
     showArchives: true,
     showBackButton: true,
     editPost: {
-      editPost: {
-        enabled: false, // satnaing 원본 레포 링크가 노출되지 않도록 초기에는 false 권장
-        url: "https://github.com/InWuk-Hwang/my-blog/edit/main/",
+      enabled: false, // satnaing 원본 레포 링크가 노출되지 않도록 초기에는 false 권장
+      url: "https://github.com/InWuk-Hwang/my-blog/edit/main/",
     },
     search: "pagefind",
   },
