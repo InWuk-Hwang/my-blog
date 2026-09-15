@@ -2,14 +2,14 @@ import { defineAstroPaperConfig } from "./src/types/config";
 
 export default defineAstroPaperConfig({
   site: {
-    url: "https://astro-paper.pages.dev/",
-    title: "AstroPaper",
-    description: "A minimal, responsive and SEO-friendly Astro blog theme.",
-    author: "Sat Naing",
-    profile: "https://satna.ing",
+    url: "https://thepastpath.com/",
+    title: "The Past Patch",
+    description: "Curious about history's weirdest moments? The Past Patch brings bizarre true events back to life through original 2D illustrations and storytelling.",
+    author: "InWuk Hwang",
+    profile: "https://thepastpath.com",
     ogImage: "default-og.jpg",
-    lang: "en",
-    timezone: "Asia/Bangkok",
+    lang: "en-US",
+    timezone: "America/New_York",
     dir: "ltr",
   },
   posts: {
